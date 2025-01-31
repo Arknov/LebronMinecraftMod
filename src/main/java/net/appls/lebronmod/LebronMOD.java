@@ -43,6 +43,8 @@ public class LebronMOD
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        MinecraftForge.EVENT_BUS.register(net.appls.lebronmod.item.ModArmorEffects.class);
+
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

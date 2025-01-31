@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "lebronmod:lebron"
+    },
+    "B": {
+      "item":"minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "A A",
+    "ABA",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lebronmod:lebron_jersey"
+  }
+}

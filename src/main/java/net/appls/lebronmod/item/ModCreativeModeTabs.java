@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.LEBRON.get());
                         output.accept(ModItems.BRONNY.get());
+                        output.accept(ModItems.LEBRON_JERSEY.get());
 
                     }).build());
     public static final RegistryObject<CreativeModeTab> BALL_BLOCKS_TAB = CREATIVE_MODE_TABS.register("ball_blocks_tab",
@@ -28,6 +29,14 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.lebronmod.bron_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.LeBlock.get());
+
+                    }).build());
+    public static final RegistryObject<CreativeModeTab> BALL_CLOTHING_TAB = CREATIVE_MODE_TABS.register("ball_clothing_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.LEBRON_JERSEY.get()))
+                    .withTabsAfter(BALL_BLOCKS_TAB.getId())
+                    .title(Component.translatable("creativetab.lebronmod.bron_clothing"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.LEBRON_JERSEY.get());
 
                     }).build());
 
