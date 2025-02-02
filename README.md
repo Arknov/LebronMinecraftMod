@@ -1,4 +1,4 @@
-# LeBlock James 2.0 Mod
+# LeBlock James 1.0.2 Mod
 
 Welcome to the ultimate basketball mod for **Minecraft**! 🏀 This update brings **LeBron James'** iconic style and basketball greatness to your world with full jerseys, shoes, shorts, and even a **basketball** item that’ll make your game more fun and interactive. Plus, enjoy the new **Athleticism Potion** 🏃‍♂️ to boost your speed and hopping abilities! 🐇
 
