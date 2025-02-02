@@ -1,0 +1,10 @@
+{
+  "sunshine": {
+    "sounds": [
+      {
+        "name": "lebronmod:sunshine",
+        "stream": true
+      }
+    ]
+  }
+}

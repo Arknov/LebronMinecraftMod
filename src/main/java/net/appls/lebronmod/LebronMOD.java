@@ -3,6 +3,7 @@ package net.appls.lebronmod;
 import com.mojang.logging.LogUtils;
 import net.appls.lebronmod.block.ModBlocks;
 import net.appls.lebronmod.item.ModCreativeModeTabs;
+import net.appls.lebronmod.item.ModEffects;
 import net.appls.lebronmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -43,7 +44,9 @@ public class LebronMOD
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModEffects.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(net.appls.lebronmod.item.ModArmorEffects.class);
+        
 
 
         // Register the item to a creative tab
@@ -64,6 +67,14 @@ public class LebronMOD
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.LEBRON);
             event.accept(ModItems.BRONNY);
+            event.accept(ModItems.LEBRON_JERSEY);
+            event.accept(ModItems.BALL);
+            event.accept(ModItems.CAVS);
+            event.accept(ModItems.LEBRON_SHOES);
+            event.accept(ModItems.LEBRON_BAND);
+            event.accept(ModItems.LEBRON_SHORTS);
+            event.accept(ModItems.ATH_Potion);
+
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.LeBlock);

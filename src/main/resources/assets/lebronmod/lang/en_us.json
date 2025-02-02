@@ -4,5 +4,13 @@
   "block.lebronmod.leblock": "LeBlock",
   "creativetab.lebronmod.bron_items": "Lebron Items",
   "creativetab.lebronmod.bron_blocks": "Lebron Blocks",
-  "item.lebronmod.lebron_jersey":"LeBron Lakers Jersey"
+  "item.lebronmod.lebron_jersey":"LeBron Lakers Jersey",
+  "item.lebronmod.basketball": "Basketball",
+  "item.lebronmod.cavs": "LeBron Cavs Jersey",
+  "item.lebronmod.lebron_shoes": "LeBron's Shoes",
+  "item.lebronmod.headband": "NBA Headband",
+  "item:lebronmod.lebron_shorts": "LeBron's Shorts",
+  "item.lebronmod.sunshine": "You are my Sunshine!",
+  "item.lebronmod.ath_potion": "Athletics Potion"
+
 }

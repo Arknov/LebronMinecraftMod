@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.LEBRON.get());
                         output.accept(ModItems.BRONNY.get());
                         output.accept(ModItems.LEBRON_JERSEY.get());
+                        output.accept(ModItems.BALL.get());
 
                     }).build());
     public static final RegistryObject<CreativeModeTab> BALL_BLOCKS_TAB = CREATIVE_MODE_TABS.register("ball_blocks_tab",
@@ -37,6 +38,8 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.lebronmod.bron_clothing"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.LEBRON_JERSEY.get());
+                        output.accept(ModItems.CAVS.get());
+                        output.accept(ModItems.LEBRON_SHOES.get());
 
                     }).build());
 

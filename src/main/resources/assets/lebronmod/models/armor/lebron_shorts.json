@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer1": "lebronmod:armor/lebron_layer_1",
+    "layer2": "lebronmod:armor/lebron_layer_2"
+  }
+}
